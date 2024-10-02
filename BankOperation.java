@@ -7,11 +7,11 @@ public class BankOperation {
 
 
     public BankOperation() {
-        this.name = new Arraylist<>();
-        this.balance = new Arraylist<>();
+        this.name = new ArrayList<>();
+        this.balance = new ArrayList<>();
     }
 
-    public String getName() {
+    public ArrayList<String> getName() {
         return name;
     }
 
